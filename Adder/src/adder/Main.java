@@ -15,9 +15,14 @@ public class Main {
 
     private static int addArguments(String[] args) {
         int sum = 0;
-        for (String arg : args) {
-            sum += Integer.parseInt(arg);
+        if (!args[0].contains("-")) {
+            for (String arg : args)
+                sum += Integer.parseInt(arg);
         }
+        else
+            for (int i = 1; i < args.length; i++) {
+                sum -= Integer.parseInt(args[i]);
+            }
         return sum;
     }
 }
