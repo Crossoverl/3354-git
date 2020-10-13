@@ -1,0 +1,6 @@
+a.) 7
+b.) 1/24/2017 10:28pm
+c.) log shows information about previous commits in a project while status shows the state of current changes that have yet to be committed.
+d.) untracked files are not recorded by Git while unstaged files are files that have not been recorded into a commit yet.
+e.) checkout is like stepping back to a previous node(commit) in history while reset returns to the last committed state and alters the commit history.
+f.) the merge will fail and the local working directory will stay the same
